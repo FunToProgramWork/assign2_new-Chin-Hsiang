@@ -35,14 +35,14 @@ void draw() {
   image(groundhogIdle,320,80);
   image(cabbage,random(0,560),240);
   if(keyPressed){
-  if(key== 'a'){
-  image( groundhogLeft ,320-80,80);
-  }
   if(key== 's'){
   image( groundhogDown,320,80+80);
   }
   if(key== 'd'){
   image( groundhogRight ,320+80,80);
+  }
+  if(key== 'a'){
+  image( groundhogLeft ,320-80,80);
   }
   else{
      image( groundhogIdle,320,80);
